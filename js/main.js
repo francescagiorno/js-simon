@@ -13,7 +13,7 @@ $(document).ready(function(){
   }
   alert("memorizza i numeri " + randomNmubers);
 
-  setTimeOut(function(){
+  setTimeout(function(){
     for (var i = 0; i < 5; i++) {
       var sceltaUtente = parseInt(prompt("inserisci i numeri che ricordi"));
 
@@ -21,5 +21,5 @@ $(document).ready(function(){
           numeriUtente.push(sceltaUtente);
         }
     }
-    alert("Hai vinto " + numeriUtente.length + " i numeri sono " + unumerUtenti)}, 30000)
+    alert("Hai vinto " + numeriUtente.length + " i numeri sono " + numeriUtente)}, 30000)
   });
